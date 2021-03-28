@@ -1,8 +1,8 @@
 <?php
 
 
-use Phinx\Seed\AbstractSeed;
 use Faker\Factory;
+use Phinx\Seed\AbstractSeed;
 
 class UserSeeder extends AbstractSeed
 {
@@ -18,7 +18,7 @@ class UserSeeder extends AbstractSeed
     {
         $faker = Factory::create('zh_CN');
         $data = [];
-        for ($i = 0; $i < 100000; $i++) {
+        for ($i = 0; $i < 1000000 ; $i++) {
             $data[] = [
                 'name'     => $faker->name,
                 'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
