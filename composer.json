@@ -12,10 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "fzaninotto/faker": "1.9.x-dev",
-        "envms/fluentpdo": "^2.2.0",
-        "ext-pdo": "*",
-        "robmorgan/phinx": "dev-master"
+        "fzaninotto/faker": "1.9.2",
+        "robmorgan/phinx": "^0.12.6"
     },
     "require-dev": {
         "phpunit/phpunit": "9.5.*"
